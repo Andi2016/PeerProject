@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity{
 
         functions=new LinkedList<>();
         functions.add("Calendar API");
+        functions.add("Notification");
         myAdapter=new MyAdapter((LinkedList<String>) functions, mContext);
         function_list.setAdapter(myAdapter);
 
@@ -63,7 +64,8 @@ public class MainActivity extends AppCompatActivity{
 
 
     private static final DemoInfo[] demos = {
-            new DemoInfo(Calendar.class)
+            new DemoInfo(Calendar.class),
+            new DemoInfo(Notification.class)
     };
 
 
