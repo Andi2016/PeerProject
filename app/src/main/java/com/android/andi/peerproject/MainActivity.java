@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity{
         bindViews();
 
         functions=new LinkedList<>();
-        functions.add("Get Current Location");
         functions.add("Calendar API");
         myAdapter=new MyAdapter((LinkedList<String>) functions, mContext);
         function_list.setAdapter(myAdapter);
@@ -64,7 +63,6 @@ public class MainActivity extends AppCompatActivity{
 
 
     private static final DemoInfo[] demos = {
-            new DemoInfo(GetLocation.class),
             new DemoInfo(Calendar.class)
     };
 
