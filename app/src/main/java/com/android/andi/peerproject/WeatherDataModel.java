@@ -1,4 +1,4 @@
-package com.mas8803.flashchat;
+package com.android.andi.peerproject;
 
 import org.json.JSONException;
 import org.json.JSONObject;

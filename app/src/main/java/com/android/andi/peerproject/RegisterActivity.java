@@ -1,4 +1,4 @@
-package com.mas8803.flashchat;
+package com.android.andi.peerproject;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
